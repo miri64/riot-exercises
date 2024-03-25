@@ -16,7 +16,7 @@
 int echo_command(int argc, char **argv)
 {
     /* check that the command is called correctly */
-    if (argc != 2) {
+    if (argc != 1) {
         puts("usage: echo <message>");
         puts("Note: to echo multiple words wrap the message in \"\"");
         return 1;
